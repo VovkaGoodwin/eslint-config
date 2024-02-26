@@ -3,5 +3,4 @@ module.exports = {
         './rules/react.cjs',
         './rules/general.cjs'
     ].map(require.resolve),
-
 }
