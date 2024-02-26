@@ -2,7 +2,7 @@
   "name": "eslint-config",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
