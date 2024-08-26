@@ -29,5 +29,6 @@ module.exports = {
         'quote-props': ['error', 'as-needed', {keywords: false, unnecessary: true, numbers: false}],
         quotes: ['error', 'single', {avoidEscape: true}],
         semi: ["error", "always"],
+        eqeqeq: ["error"]
     }
 }
