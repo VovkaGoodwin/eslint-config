@@ -1,10 +1,7 @@
+"use strict"
+
 module.exports = {
-    extends: [
-        './rules/general',
-        './rules/react',
-    ],
-    plugins: [
-      'react'
-    ],
-    rules: {}
+    mjs: {
+        general: require('./rules/mjs/general.js')
+    }
 }
