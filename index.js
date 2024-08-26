@@ -1,5 +1,6 @@
 module.exports = {
     extends: [
-        './src'
-    ]
+        './rules/react.cjs',
+        './rules/general.cjs'
+    ].map(require.resolve),
 }
