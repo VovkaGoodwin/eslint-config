@@ -1,6 +1,7 @@
-module.exports = {
-    mjs: {
-        general: require('./rules/general'),
-        react: require('./rules/react')
-    }
+import react from './rules/react.js'
+import general from './rules/general.js'
+
+export default {
+    react,
+    general,
 }
