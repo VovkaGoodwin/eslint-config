@@ -1,6 +1,7 @@
 module.exports = {
     rules: {
         'arrow-body-style': ["error", "as-needed"],
+        'arrow-parens': ["error", "always"],
         indent: ['error', 2, {
             ArrayExpression: 1,
             CallExpression: {
@@ -29,6 +30,17 @@ module.exports = {
         'quote-props': ['error', 'as-needed', {keywords: false, unnecessary: true, numbers: false}],
         quotes: ['error', 'single', {avoidEscape: true}],
         semi: ["error", "always"],
-        eqeqeq: ["error"]
+        eqeqeq: ["error"],
+        '@typescript-eslint/strict-boolean-expressions': ['error', {
+            allowAny: false,
+            allowNullableBoolean: false,
+            allowNullableEnum: false,
+            allowNullableNumber: false,
+            allowNullableObject: false,
+            allowNullableString: false,
+            allowNumber: false,
+            allowRuleToRunWithoutStrictNullChecksIKnowWhatIAmDoing: false,
+            allowString: false,
+        }]
     }
 }
